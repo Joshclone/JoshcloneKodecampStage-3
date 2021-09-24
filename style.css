@@ -1,0 +1,418 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: whitesmoke;
+  color: white;
+}
+
+.topnav .icon {
+  
+  margin-left: 30rem;
+
+}
+
+
+
+.tag {
+  justify-content: center;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+.head-one {
+  display: flex;
+  justify-content: center;
+  padding: 0.1rem;
+}
+
+.head-two {
+  display: flex;
+  justify-content: center;
+}
+
+
+.head-three{
+  padding: 5rem;
+}
+
+.head-three img{
+  width: 20rem;
+
+  padding: 20px;
+}
+
+
+
+.head-f{
+  background-color: #104E92;
+}
+.head-four img{
+
+  width: 20rem;
+  padding: 12px;
+
+}
+
+ .head-four {
+   margin-top: none;
+  display: flex;
+margin-left: 20rem;
+ 
+  }
+
+
+
+#red {
+  color: #ffffff;
+background-color: #E71A23;
+}
+
+#white {
+  color:#333;
+  background-color: #f2f2f2;
+}
+.text {
+ margin-left: 330px;
+}
+
+
+.text-two {
+  padding: 15px;
+  font-family: monospace;
+ margin-left: 36px;
+ font-weight:  30;
+font-size: 2rem;
+}
+
+ button{
+  
+  width: 16rem;
+  height: 3rem;
+margin-top: 5rem;
+margin-bottom: 5rem;
+
+margin-left: 1rem;
+border-radius: 3%;
+
+}
+
+#red:hover{
+background-color: #9e0a12;
+}
+
+
+#white:hover{
+ 
+background-color: #979393;
+}
+
+
+
+.but{
+  margin-left: 26rem;
+}
+ 
+
+#red {
+  padding: 10px;
+}
+
+
+.footer{
+  background-color: #333;
+  color: white;
+  height: 14rem;
+  padding: 50px;
+}
+
+#foot{
+  margin-top: 4rem;
+}
+
+
+
+
+
+@media screen and (min-width: 992px) {
+
+  .body{
+    width: 100%;
+  }
+ 
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    
+    text-align: left;
+  }
+
+
+ .topnav{
+    width: 100%;
+  }
+
+.head-one{
+  width: fit-content;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+
+  .body{
+    width: 100%;
+  }
+ 
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    
+    text-align: left;
+  }
+
+
+ .topnav{
+    width: 100%;
+  }
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+.body{
+  width: fit-content;
+}
+
+ .body-section{
+    width: fit-content;
+  }
+ .topnav{
+    width: 100%;
+  }
+
+
+  .head-one {
+    width: 45rem;
+  }
+
+ 
+  .head-two {
+    width: fit-content;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  .body{
+    width: 100%;
+  }
+ 
+.head-one{
+  width: fit-content;
+}
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    
+    text-align: left;
+  }
+
+
+ .topnav{
+    width: 100%;
+  }
+
+  .head-one{
+    float: none;
+    display: block;
+  justify-content: center;
+
+  }
+
+
+
+  
+.head-three{
+  padding: none;
+  flex:none;
+}
+
+.head-three img{
+  width: none;
+  padding: none;
+
+
+}
+
+
+
+.head-f{
+  background-color: #104E92;
+  flex: none;
+}
+.head-four img{
+  padding: none;
+  flex: none;
+
+}
+
+ .head-four {
+  margin: none;
+  }
+
+  
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+.body{
+  margin: none !important;
+  padding: none !important;
+  width: fit-content;
+}
+
+ .topnav{
+    width: 100%;
+  }
+
+
+  .head{
+width: fit-content;
+  }
+
+ 
+  .head-two {
+    width: 45rem;
+   
+  }
+
+  .body-section{
+    width: fit-content;
+  }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 414px) {
+
+.body{
+  width: fit-content;
+  margin: none !important;
+  padding: none !important;
+}
+
+ .body-section{
+    width: fit-content;
+  }
+  .topnav{
+    width:100%;
+  }
+
+
+
+.head {
+  display: flex;
+  justify-content: center;
+  width: 0.7rem;
+}
+
+
+
+.head-f{
+  background-color: #104E92;
+  flex: none;
+}
+.head-four img{
+  padding: none;
+
+}
+
+ .head-four {
+ flex: none;
+ margin: none;  
+}
+
+
+}
+
+
+
